@@ -40,6 +40,10 @@ Cool! Now, lets find a <span style="color:lime">**Coppersmith**'s</span> attack 
 I used [this one](https://github.com/jvdsn/crypto-attacks/blob/master/attacks/factorization/coppersmith.py).\
 By running the script we can recover <span style="color:lime">**P**</span> and <span style="color:lime">**Q**</span>:
 ```python
+p, q = factorize_p(n, PartialInteger.lsb_of(l, 512, 420), m=6, t=6)
+print(f"p={p}\nq={q}")
+```
+```python
 p=10501574063276160405580832434192526608028764821796046523217117923466308226745476655027710250348929485124838651857425989961890544509057387075300064506480437
 q=9694983052752806173990498360338339107170189004903988619042377405334000252898215954126965807852628132355664578274159913335030870560367712245485001933815149
 ```
