@@ -32,7 +32,9 @@ print(f"n={n}\nc={c}\ne={e}\nl={l}")
 ---------------------
 ### Solution
 This is just a normal <span style="color:lime">**RSA**</span>, but we also have 420 right bits of <span style="color:lime">**P**</span>.\
-Alright, lets ask ChatGPT if such attack exists.
+Alright, lets ask ChatGPT if such an attack exists.\
+\
+<img width="600" alt="Screenshot 2025-03-02 at 20 42 20" src="https://github.com/user-attachments/assets/3fdb7c05-6541-4b48-a3df-149cbd4fa548" />
 
 Cool! Now, lets find a <span style="color:lime">**Coppersmith**'s</span> attack implementation.
 I used [this one](https://github.com/jvdsn/crypto-attacks/blob/master/attacks/factorization/coppersmith.py).\
