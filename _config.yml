@@ -1,3 +1,4 @@
 theme: jekyll-theme-hacker
 title: "tae ctf Writeups"
-description: "A collection of my CTF challenge solutions"
+description: "My CTF challenge solutions"
+markdown: kramdown
